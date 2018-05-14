@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         listView=(ListView)findViewById(R.id.listView);
-/* firebase*/
+/* firebase codes*/
         mDatabase = FirebaseDatabase.getInstance().getReference();
 
         final ArrayAdapter<String> arrayAdapter=new ArrayAdapter<String>(this,android.R.layout.simple_spinner_item,list);
