@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-/*end*/
+/*end of Firebase codes*/
 
         }
 
